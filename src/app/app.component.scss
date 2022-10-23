@@ -1,0 +1,65 @@
+.container-geral {
+    display: flex;
+    justify-content: center;
+}
+
+.container-calculadora {
+    width: 350px;
+    height: 600px;
+    background: black;
+    border-radius: 10px;
+}
+
+.display-calculadora {
+    width: 340px;
+    margin: 8px;
+    text-align: end;
+    padding-top: 60px;
+    padding-right: 10px; 
+    color: white;
+    font-size: 67px;
+    font-weight: 100;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.botoes-calculadora {
+    display: flex;
+    justify-content: center;
+    width: 334px;
+    padding: 16px 16px 0px 16px;
+}
+
+.botao-generico,
+.botao-laranja,
+.botao-gray-dark,
+.botao-largo {
+    cursor: pointer;
+    background: gray;
+    width: 75px;
+    height: 66px;
+    margin-right: 16px;
+    border-radius: 80px;
+    color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.botao-laranja {
+    background: orange;
+    color: white;
+}
+
+.botao-gray-dark {
+    background-color: rgb(54, 54, 54);
+    color: white;
+}
+
+.botao-largo {
+    background-color: rgb(54, 54, 54);
+    width: 140px;
+    color: white;
+}
